@@ -1,0 +1,64 @@
+.search {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 200px;
+  background-color: white;
+  box-sizing: 5px 5px 10px #ddd;
+
+  // logo
+  .logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    a {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      font-size: 50px;
+      color: red;
+      font-family: Stylo;
+
+      @font-face {
+        font-family: Stylo;
+        src: url('@/assets/font/Stylo.ttf');
+      }
+    }
+  }
+
+  .textInput {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+
+    // input {
+    //   width: 100%;
+    //   height: 45px;
+    //   border: 2px solid #ff4000;
+    //   border-radius: 30px;
+    //   padding: 0 20px;
+    //   outline: none;
+    // }
+
+    // .camera-search {
+    //   position: absolute;
+    //   // right: 0;
+    // }
+
+    .ant-btn-variant-solid {
+      border-radius: 30px;
+      background: linear-gradient(124deg, #ff640f, #ff0909);
+
+      &:hover {
+        background: linear-gradient(124deg, #ff640f, #ff0909);
+      }
+
+      &:focus-visible {
+        outline: none;
+      }
+    }
+  }
+}

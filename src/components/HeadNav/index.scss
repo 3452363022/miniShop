@@ -1,0 +1,45 @@
+.nav {
+  height: 30px;
+  display: flex;
+  padding: 0 100px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  backdrop-filter: blur(30px);
+  font-size: 14px;
+  border-bottom: 1px solid #dfdcdc85;
+  box-sizing: border-box;
+
+
+  .nav-list {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    .nav-Items {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &>li {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        margin: 0 10px;
+      }
+    }
+  }
+
+  .nav-right {
+    .nav-right-item {
+      margin-left: 20px;
+    }
+
+    .shoppingCount {
+      color: #ff4d4f;
+    }
+  }
+}

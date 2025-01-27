@@ -1,0 +1,44 @@
+{
+  "name": "minishop",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "server": "json-server --watch ./server/mock/goodsData.json --static ./server/img --port 8888",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.5.2",
+    "@reduxjs/toolkit": "^2.5.0",
+    "antd": "^5.22.2",
+    "axios": "^1.7.9",
+    "classnames": "^2.5.1",
+    "lodash": "^4.17.21",
+    "normalize.css": "^8.0.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-masonry-component": "^6.3.0",
+    "react-redux": "^9.2.0",
+    "react-router": "^7.0.1",
+    "react-router-dom": "^7.0.1",
+    "react-slick": "^0.30.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.15.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "globals": "^15.12.0",
+    "json-server": "^1.0.0-beta.3",
+    "sass": "^1.81.0",
+    "vite": "^6.0.1"
+  }
+}

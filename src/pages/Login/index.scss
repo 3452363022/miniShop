@@ -1,0 +1,142 @@
+.loginForm {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+
+  .header {
+    height: 70px;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+
+    a {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      color: #08c;
+
+      &:nth-of-type(1) {
+        font-size: 50px;
+        color: red;
+        font-family: Stylo;
+
+      }
+    }
+  }
+
+  .container {
+    margin-top: 50px;
+    display: flex;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: center;
+
+    .content {
+      display: flex;
+      width: 762px;
+      height: 458px;
+      border-radius: 20px;
+      padding: 20px;
+      box-sizing: border-box;
+      background-color: white;
+
+      .content-left {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .content-right {
+        flex: 1;
+        background-color: white;
+        border-left: 1px solid #ddd;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .tips {
+          margin: 40px 0;
+          font-size: 22px;
+
+          &:last-of-type {
+            font-size: 14px;
+          }
+
+          span {
+            color: #ff5000
+          }
+        }
+      }
+    }
+
+  }
+
+}
+
+
+// 组件样式更改
+.password-message {
+  height: 30px;
+  border-radius: 0;
+  border-bottom: 1px solid #ddd;
+  padding: 0;
+
+
+  &:hover {
+    border-bottom: 1px solid #ff5000;
+  }
+}
+
+
+.ant-card .ant-card-head {
+  border: none;
+}
+
+:where(.css-dev-only-do-not-override-1x0dypw).ant-tabs-top>.ant-tabs-nav::before,
+:where(.css-dev-only-do-not-override-1x0dypw).ant-tabs-bottom>.ant-tabs-nav::before,
+:where(.css-dev-only-do-not-override-1x0dypw).ant-tabs-top>div>.ant-tabs-nav::before,
+:where(.css-dev-only-do-not-override-1x0dypw).ant-tabs-bottom>div>.ant-tabs-nav::before {
+  border: none;
+}
+
+:where(.css-dev-only-do-not-override-1x0dypw).ant-tabs-top>.ant-tabs-nav .ant-tabs-ink-bar,
+:where(.css-dev-only-do-not-override-1x0dypw).ant-tabs-top>div>.ant-tabs-nav .ant-tabs-ink-bar {
+  height: 4px;
+  background: linear-gradient(278deg, #ff0d0d -36%, #ff7501 68%, rgba(255, 117, 1, 0) 131%);
+}
+
+:where(.css-dev-only-do-not-override-1x0dypw).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #ff6200;
+}
+
+a:hover {
+  color: #ff5000;
+}
+
+.free-register {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  font-size: 14px;
+  box-sizing: border-box;
+
+  .qq-wechat {
+    a {
+      margin-right: 20px;
+
+      span {
+        margin-left: 3px;
+      }
+    }
+  }
+}
+
+
+.ant-select-show-search:where(.css-dev-only-do-not-override-1b8dddz).ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  padding: 0;
+}
+
+:where(.css-dev-only-do-not-override-1x0dypw).ant-tabs .ant-tabs-tab:hover {
+  color: #ff6200;
+}

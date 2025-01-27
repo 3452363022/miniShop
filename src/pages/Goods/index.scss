@@ -1,0 +1,185 @@
+.goods {
+  padding: 20px 100px;
+
+
+  // 顶部导航栏、轮播图、动态
+  .banner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+
+    // 移入标签导航栏展示
+    .pop-content-list {
+      width: 1000px;
+      height: 100%;
+      background: white;
+      border: 2px solid #ff4000;
+      position: absolute;
+      z-index: 2;
+      left: 212px;
+      padding: 20px;
+      display: none;
+      // display: flex;
+      // flex-direction: column;
+      box-sizing: border-box;
+      transition: 0.3s;
+
+      h3 {
+        a {
+          color: #ff4000;
+          margin-right: 10px;
+        }
+      }
+
+      .category-detail {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .title-detail {
+          width: 420px;
+          margin-bottom: 20px;
+
+          .title {
+            padding-bottom: 15px;
+            border-bottom: 2px solid #ff4000;
+          }
+
+          .detail {
+            margin: 10px auto;
+            display: flex;
+            flex-wrap: wrap;
+
+            a {
+              margin: 0 15px 10px 0;
+              font-size: 12px;
+            }
+          }
+        }
+
+
+      }
+
+    }
+
+    // 轮播图两边公共样式
+    .tow-sides {
+      border-radius: 10px;
+      padding: 10px;
+      flex: 1;
+    }
+
+    // 分类
+    .category {
+      background-color: white;
+
+      .category-item {
+        height: 30px;
+        display: flex;
+        align-items: center;
+
+
+        &:hover {
+          background-color: #d9d9d9;
+        }
+
+        span {
+          margin-left: 5px;
+        }
+
+        a {
+          margin-left: 10px;
+
+          &:hover {
+            color: #ff0f23;
+          }
+        }
+      }
+    }
+
+    // 轮播图
+    .swiper {
+      width: 1px;
+      flex: 4;
+      margin: 0 15px;
+      background-color: white;
+    }
+
+    // 动态
+    .dynamic {
+      background-color: white;
+
+
+      .dynamic-top {
+        height: 30px;
+        font-size: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #ddd;
+
+        a {
+          font-weight: bolder;
+
+          &:hover {
+            color: #f60;
+          }
+        }
+
+        div>span:last-of-type {
+          color: #f60;
+        }
+      }
+
+      .dynamic-bottom {
+        padding: 10px 0;
+
+
+        .dynamic-list {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+
+          li {
+            width: 100%;
+            margin: 5px 0;
+
+            a {
+              width: 190px;
+              display: inline-block;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+
+              &:hover {
+                color: #f60;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // 商品标签栏
+  .container {
+    margin: 20px 0;
+    background-color: white;
+
+    .detail-tag-list {
+      font-size: 16px;
+      display: flex;
+
+      .ant-card-body {
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+
+
+  }
+}

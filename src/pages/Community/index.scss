@@ -1,0 +1,83 @@
+.community {
+  background-color: white;
+}
+
+.community-logo {
+  height: 100%;
+  font-size: 50px;
+  color: red;
+  font-family: Stylo;
+}
+
+.community-search-input {
+  .ant-input-outlined {
+    border: none;
+    border-radius: 30px;
+    height: 40px;
+    background-color: #e6e2e2a8;
+    box-shadow: none;
+    padding: 20px;
+  }
+
+  .ant-input-group-addon {
+    border: none;
+    border-radius: 30px;
+    height: 100%;
+    background-color: #e6e2e2a8;
+
+
+
+    .ant-input-search-button {
+      border: none;
+      background-color: transparent;
+
+
+      &:hover {
+        background-color: transparent;
+      }
+
+      &:focus-visible {
+        outline: none;
+      }
+
+    }
+  }
+
+
+}
+
+:where(.css-dev-only-do-not-override-1x0dypw).ant-input-search>.ant-input-group>.ant-input-group-addon:last-child {
+  inset-inline-start: 0px;
+}
+
+:where(.css-dev-only-do-not-override-1x0dypw).ant-input-search>.ant-input-group>.ant-input-group-addon:last-child .ant-input-search-button {
+  margin-inline-end: 5px;
+}
+
+.sider-nav-button {
+  margin-bottom: 10px;
+  font-size: 18px;
+  display: flex;
+  height: 50px;
+  border-radius: 30px;
+  font-weight: bolder;
+  justify-content: flex-start;
+  padding-left: 20px;
+  border: none;
+  background: transparent;
+}
+
+// 侧边导航栏按钮激活
+.active {
+  background: rgba(0, 0, 0, .03);
+  color: #ff2e4d;
+}
+
+
+.community-category-item {
+  .ant-tabs-nav {
+    .ant-tabs-nav-wrap {
+      flex: none;
+    }
+  }
+}

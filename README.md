@@ -12,7 +12,7 @@
     
     UI组件库：Ant Design
     
-    涉及到的其他工具库：json-server、classnames、axios、lodash
+    涉及到的其他工具库：json-server、classnames、axios、lodash、normalize.css
 
 
 1、安装依赖

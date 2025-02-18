@@ -1,7 +1,7 @@
 import './index.scss';
 import CommunityCard from '@/components/CommunityCard';
 import Masonry from 'react-masonry-component';
-import { useLayoutEffect, useState } from 'react';
+import { useState } from 'react';
 import classNames from 'classnames';
 
 import {

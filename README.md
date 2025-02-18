@@ -2,12 +2,17 @@
 
 所使用的技术栈：
 
--   	CSS预处理器：Sass
-- ​	  前端框架：React 18+
--   	状态管理工具：Redux
--   	前端路由：React Router
--   	UI组件库：Ant Design
--   	涉及到的其他工具库：json-server、classnames、axios、lodash
+​		CSS预处理器：Sass
+
+​		前端框架：React 18+
+
+​		状态管理工具：Redux
+
+​		前端路由：React Router
+
+​		UI组件库：Ant Design
+
+​		涉及到的其他工具库：json-server、classnames、axios、lodash
 
 1、安装依赖
 

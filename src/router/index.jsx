@@ -7,6 +7,7 @@ import { lazy, Suspense } from "react";
 // import Community from "@/pages/Community";
 import Login from "@/pages/Login";
 import Layout from "@/pages/Layout";
+// import NotFound from "@/pages/NotFound";
 // Fast refresh only works when a file only exports components. Move your component(s) to a separate file.
 
 // 路由懒加载
@@ -14,6 +15,7 @@ const Goods = lazy(() => import('@/pages/Goods'))
 const Community = lazy(() => import('@/pages/Community'))
 const GoodsDetail = lazy(() => import('@/components/GoodsDetail'))
 const Cart = lazy(() => import('@/pages/Cart'))
+const NotFound = lazy(() => import('@/pages/NotFound'))
 
 // 创建路由
 const router = createBrowserRouter([
@@ -32,7 +34,6 @@ const router = createBrowserRouter([
       },
     ]
   },
-
   {
     path: '/login',
     element: <Login />
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
   {
     path: '/cart',
     element: <Suspense><Cart /></Suspense>
+  },
+  {
+    path: '*',
+    element: <Suspense><NotFound /></Suspense>
   }
 ])
 

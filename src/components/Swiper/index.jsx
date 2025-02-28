@@ -44,7 +44,7 @@ const Swiper = () => {
 
         {swiperData.map(item => (
           <div className='swiper-item' key={item.id}>
-            <a href="" className='swiper-item-a'>
+            <a href="/" className='swiper-item-a'>
               <img
                 className='swiper-item-img' src={item.src}
                 alt={item.alt}

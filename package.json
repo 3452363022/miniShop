@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "server": "json-server --watch ./server/mock/goodsData.json --static ./server/img --port 8888",
+    "server": "json-server --watch ./server/goodsData.json --port 8888",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
